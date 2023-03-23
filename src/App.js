@@ -574,7 +574,7 @@ function App() {
         <img src={"https://flagcdn.com/" + flagIcon + ".svg"} alt="" />
       </h2>
       <h2>{countryName}</h2>
-      <h3>click on the flag to know it's name</h3>
+      <h3>click on the flag to know it's country's name</h3>
       {arrayOfFlags.map(function (flags) {
         //map returns value and its index
         //loops through the list of flags and displays it
